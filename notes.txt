@@ -1,0 +1,10 @@
+using and, not , or
+*******************
+is_the_student_intelligent = False
+is_the_student_hardworking = False
+if is_the_student_hardworking and is_the_student_intelligent:
+    print('The student can crack IIT JEE ADVANCED')
+elif is_the_student_intelligent and not is_the_student_hardworking:
+    print('he can crack JEE MAINS')
+else:
+    print('he should choose some other career path')
