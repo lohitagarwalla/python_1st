@@ -286,4 +286,6 @@ ecommersce.shipping.calculate_shipping_cost()
 from ecommersce.shipping import calculate_shipping_cost
 calculate_shipping_cost()
 
+import math
+print(math.sqrt(25))
 
